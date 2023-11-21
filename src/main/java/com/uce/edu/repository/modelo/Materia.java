@@ -1,5 +1,8 @@
 package com.uce.edu.repository.modelo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Materia {
 	private String nombre;
 	private String codigo;
@@ -22,5 +25,10 @@ public class Materia {
 	public void setNumeroCreditos(String numeroCreditos) {
 		this.numeroCreditos = numeroCreditos;
 	}
+	@Override
+	public String toString() {
+		return "Materia [nombre=" + nombre + ", codigo=" + codigo + ", numeroCreditos=" + numeroCreditos + "]";
+	}
+	
 
 }
