@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.stereotype.Repository;
 
 import com.uce.edu.repository.modelo.Materia;
+
 @Repository
 public class MateriaRepositoryImp implements IMateriaRepository{
 	
